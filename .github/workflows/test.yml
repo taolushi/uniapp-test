@@ -28,4 +28,4 @@ jobs:
                   npm i
                   npx @dcloudio/uvm 3.2.0 --manager npm
                   npm run build:app
-							run: ls -a 
+									cd dist/build
