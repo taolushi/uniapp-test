@@ -28,5 +28,5 @@ jobs:
           npx @dcloudio/uvm 3.2.0 --manager npm
           npm run build:app																																
           zip -r filename.zip ./dist/build/app
-          rename filename.zip filename.wgt
+          # rename filename.zip filename.wgt
           ls -a
